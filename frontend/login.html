@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Virtual</title>
+    <title>Login - Loja Virtual</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -14,38 +15,48 @@
                 <h1>Loja Virtual</h1>
             </div>
             <div class="nav-items">
-                <a href="#" class="nav-link">Início</a>
+                <a href="index.html" class="nav-link">Início</a>
                 <a href="#" class="nav-link">Produtos</a>
                 <a href="#" class="nav-link">Categorias</a>
-                <div class="search-bar">
-                    <input type="text" placeholder="Buscar produtos...">
-                    <button><i class="fas fa-search"></i></button>
-                </div>
                 <a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i> Carrinho</a>
-                <a href="login.html" class="nav-link"><i class="fas fa-user"></i> Login</a>
+                <a href="login.html" class="nav-link active"><i class="fas fa-user"></i> Login</a>
             </div>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <h2>Bem-vindo à nossa Loja Virtual</h2>
-            <p>Encontre os melhores produtos com os melhores preços!</p>
-        </section>
-
-        <section class="categories">
-            <h3>Categorias</h3>
-            <div class="category-grid">
-                <!-- Categorias serão inseridas dinamicamente -->
+    <main class="auth-container">
+        <div class="auth-box">
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="auth-button">Entrar</button>
+                </div>
+                <div class="auth-links">
+                    <a href="#" onclick="forgotPassword()">Esqueceu a senha?</a>
+                    <a href="register.html">Criar conta</a>
+                </div>
+            </form>
+            
+            <div class="social-login">
+                <p>Ou entre com</p>
+                <div class="social-buttons">
+                    <button onclick="socialLogin('google')" class="social-button google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                    <button onclick="socialLogin('facebook')" class="social-button facebook">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </button>
+                </div>
             </div>
-        </section>
-
-        <section class="featured-products">
-            <h3>Produtos em Destaque</h3>
-            <div class="product-grid">
-                <!-- Produtos serão inseridos dinamicamente -->
-            </div>
-        </section>
+        </div>
     </main>
 
     <footer>
@@ -73,6 +84,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
 </body>
 </html> 
