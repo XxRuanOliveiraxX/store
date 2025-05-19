@@ -1,0 +1,126 @@
+2025-05-19 16:29:51,787 INFO o.s.b.StartupInfoLogger [main] Starting StoreApplication using Java 21.0.7 with PID 17108 (C:\Repositories\store\backend\target\classes started by Ruan in C:\Repositories\store)
+2025-05-19 16:29:51,792 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-05-19 16:29:52,809 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-19 16:29:52,911 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2025-05-19 16:29:53,772 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-05-19 16:29:53,788 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:29:53,792 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-05-19 16:29:53,793 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-19 16:29:53,883 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-05-19 16:29:53,886 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2023 ms
+2025-05-19 16:29:54,649 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-19 16:29:54,704 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-05-19 16:29:55,122 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a0d875d
+2025-05-19 16:29:55,124 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-05-19 16:29:56,606 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:29:56,975 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-19 16:29:57,882 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-19 16:29:58,395 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31906cb2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@207fce87, org.springframework.security.web.context.SecurityContextHolderFilter@293ccbdd, org.springframework.security.web.header.HeaderWriterFilter@732ffb6a, org.springframework.web.filter.CorsFilter@67171221, org.springframework.security.web.authentication.logout.LogoutFilter@3e37c38f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@474a63d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b8d0c21, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f3a3fec, org.springframework.security.web.session.SessionManagementFilter@77198cce, org.springframework.security.web.access.ExceptionTranslationFilter@60035f1e, org.springframework.security.web.access.intercept.AuthorizationFilter@746cb25d]
+2025-05-19 16:29:58,661 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:29:58,680 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/api'
+2025-05-19 16:29:58,691 INFO o.s.b.StartupInfoLogger [main] Started StoreApplication in 7.559 seconds (process running for 8.024)
+2025-05-19 16:33:17,729 INFO o.s.b.StartupInfoLogger [restartedMain] Starting StoreApplication using Java 21.0.7 with PID 19588 (C:\Repositories\store\backend\target\classes started by Ruan in C:\Repositories\store)
+2025-05-19 16:33:17,733 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-05-19 16:33:17,790 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-19 16:33:17,790 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-19 16:33:18,788 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-19 16:33:18,886 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2025-05-19 16:33:19,735 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-05-19 16:33:19,749 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:19,753 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-05-19 16:33:19,754 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-19 16:33:19,831 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-05-19 16:33:19,833 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2041 ms
+2025-05-19 16:33:20,542 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-19 16:33:20,573 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-05-19 16:33:20,971 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7877b577
+2025-05-19 16:33:20,974 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-05-19 16:33:22,613 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:23,011 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-19 16:33:23,977 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-19 16:33:24,474 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71a49055, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@95ba03e, org.springframework.security.web.context.SecurityContextHolderFilter@3d478687, org.springframework.security.web.header.HeaderWriterFilter@701c0904, org.springframework.web.filter.CorsFilter@46706396, org.springframework.security.web.authentication.logout.LogoutFilter@7bba93ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55c186a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ecd1175, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54942ae7, org.springframework.security.web.session.SessionManagementFilter@4b67a97, org.springframework.security.web.access.ExceptionTranslationFilter@2b19956c, org.springframework.security.web.access.intercept.AuthorizationFilter@384819f6]
+2025-05-19 16:33:24,763 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-05-19 16:33:24,779 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:24,800 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/api'
+2025-05-19 16:33:24,812 INFO o.s.b.StartupInfoLogger [restartedMain] Started StoreApplication in 7.718 seconds (process running for 8.286)
+2025-05-19 16:33:36,461 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-19 16:33:36,466 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:36,471 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:36,475 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2025-05-19 16:33:36,484 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2025-05-19 16:33:36,612 INFO o.s.b.StartupInfoLogger [restartedMain] Starting StoreApplication using Java 21.0.7 with PID 19588 (C:\Repositories\store\backend\target\classes started by Ruan in C:\Repositories\store)
+2025-05-19 16:33:36,613 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-05-19 16:33:36,880 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-19 16:33:36,914 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
+2025-05-19 16:33:37,049 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-05-19 16:33:37,051 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:37,052 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-05-19 16:33:37,052 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-19 16:33:37,090 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-05-19 16:33:37,091 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 475 ms
+2025-05-19 16:33:37,149 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-19 16:33:37,151 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2025-05-19 16:33:37,170 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73b6e60c
+2025-05-19 16:33:37,171 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2025-05-19 16:33:37,495 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:37,717 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-19 16:33:37,803 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b183357, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43436e1, org.springframework.security.web.context.SecurityContextHolderFilter@1d3ca19f, org.springframework.security.web.header.HeaderWriterFilter@67b3b0f7, org.springframework.web.filter.CorsFilter@528bc484, org.springframework.security.web.authentication.logout.LogoutFilter@6bfcffd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68a1b44d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@126f85a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36586d7d, org.springframework.security.web.session.SessionManagementFilter@2694f9d4, org.springframework.security.web.access.ExceptionTranslationFilter@30d8b61b, org.springframework.security.web.access.intercept.AuthorizationFilter@5796743c]
+2025-05-19 16:33:37,862 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-05-19 16:33:37,871 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:37,878 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/api'
+2025-05-19 16:33:37,884 INFO o.s.b.StartupInfoLogger [restartedMain] Started StoreApplication in 1.314 seconds (process running for 21.357)
+2025-05-19 16:33:37,888 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-05-19 16:33:39,310 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-19 16:33:39,313 INFO o.a.j.l.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:39,317 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:39,319 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2025-05-19 16:33:39,325 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2025-05-19 16:33:39,420 INFO o.s.b.StartupInfoLogger [restartedMain] Starting StoreApplication using Java 21.0.7 with PID 19588 (C:\Repositories\store\backend\target\classes started by Ruan in C:\Repositories\store)
+2025-05-19 16:33:39,421 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-05-19 16:33:39,666 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-19 16:33:39,687 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2025-05-19 16:33:39,823 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-05-19 16:33:39,825 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:39,826 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-05-19 16:33:39,827 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-19 16:33:39,860 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-05-19 16:33:39,861 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 437 ms
+2025-05-19 16:33:39,938 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-19 16:33:39,940 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2025-05-19 16:33:39,958 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ca3e02
+2025-05-19 16:33:39,959 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2025-05-19 16:33:40,241 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:40,437 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-19 16:33:40,499 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6687796d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1dd046aa, org.springframework.security.web.context.SecurityContextHolderFilter@345a8aeb, org.springframework.security.web.header.HeaderWriterFilter@6069c80c, org.springframework.web.filter.CorsFilter@4e0c6ba9, org.springframework.security.web.authentication.logout.LogoutFilter@7a64162b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b3f111e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55388fdd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35537b5c, org.springframework.security.web.session.SessionManagementFilter@5872f188, org.springframework.security.web.access.ExceptionTranslationFilter@4c507f49, org.springframework.security.web.access.intercept.AuthorizationFilter@3c08f589]
+2025-05-19 16:33:40,544 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-05-19 16:33:40,549 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:40,553 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/api'
+2025-05-19 16:33:40,558 INFO o.s.b.StartupInfoLogger [restartedMain] Started StoreApplication in 1.177 seconds (process running for 24.032)
+2025-05-19 16:33:40,561 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-05-19 16:33:48,111 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-19 16:33:48,113 INFO o.a.j.l.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:48,117 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:48,118 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2025-05-19 16:33:48,121 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2025-05-19 16:33:48,215 INFO o.s.b.StartupInfoLogger [restartedMain] Starting StoreApplication using Java 21.0.7 with PID 19588 (C:\Repositories\store\backend\target\classes started by Ruan in C:\Repositories\store)
+2025-05-19 16:33:48,215 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-05-19 16:33:48,430 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-19 16:33:48,450 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2025-05-19 16:33:48,554 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-05-19 16:33:48,555 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:48,556 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-05-19 16:33:48,556 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-05-19 16:33:48,580 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-05-19 16:33:48,581 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 363 ms
+2025-05-19 16:33:48,617 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-19 16:33:48,618 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2025-05-19 16:33:48,633 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2633dbf0
+2025-05-19 16:33:48,633 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2025-05-19 16:33:48,857 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-19 16:33:49,057 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-19 16:33:49,115 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65e66213, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58f61f04, org.springframework.security.web.context.SecurityContextHolderFilter@4da5fc56, org.springframework.security.web.header.HeaderWriterFilter@4577743d, org.springframework.web.filter.CorsFilter@7176e4e2, org.springframework.security.web.authentication.logout.LogoutFilter@135992bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@385c3a5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@467477f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65cb108c, org.springframework.security.web.session.SessionManagementFilter@3180c7f0, org.springframework.security.web.access.ExceptionTranslationFilter@69539bfb, org.springframework.security.web.access.intercept.AuthorizationFilter@3af5db83]
+2025-05-19 16:33:49,163 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-05-19 16:33:49,168 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-19 16:33:49,173 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/api'
+2025-05-19 16:33:49,177 INFO o.s.b.StartupInfoLogger [restartedMain] Started StoreApplication in 1.0 seconds (process running for 32.651)
+2025-05-19 16:33:49,179 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
